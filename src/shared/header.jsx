@@ -14,7 +14,7 @@ export default function header() {
     <div className="relative">
         <HiOutlineSearch fontSize={20} className='text-gray-400 absolute top-1/2 -translate-y-1/2 left-3'  />
         <input type='text' placeholder='Search' 
-         className="text-sm focus:outline-none active:outline-none h-10 w-[24rem] border border-gray-300 rounded-sm
+         className="text-sm focus:outline-none active:outline-none h-10 w-[65rem] border border-gray-300 rounded-sm
            pl-11 pr-4"/>
     </div>
 
@@ -23,8 +23,7 @@ export default function header() {
         {({ open }) => (
           <>
             <Popover.Button className={classNames(open && 'bg-gray-100',"flex items-center p-4")}>  
-
-               <HiOutlineChatAlt fontSize={24} />        
+    
      </Popover.Button>
 
      <Transition
@@ -56,7 +55,8 @@ export default function header() {
             <Popover.Button className={classNames(open && 'bg-gray-100',"flex items-center p-4")}>  
 
                <HiOutlineChatAlt fontSize={24} />
-               <HiOutlineBell fontSize={24} />         
+               <HiOutlineBell fontSize={24} />
+                      
      </Popover.Button>
 
      <Transition

@@ -2,6 +2,7 @@ import React from 'react'
 import {Outlet} from 'react-router-dom';
 import Sidebar from '../shared/sidebar';
 import Header from'../shared/header';
+import Dashboard from '../shared/dashboard'
 export const Layout = () => {
   return (
     <div className="flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden">
@@ -11,6 +12,7 @@ export const Layout = () => {
           <Header />
           </div>
         <div className='p-4'>{<Outlet />}</div>
+        <Dashboard />
         </div> 
         </div>
   )
