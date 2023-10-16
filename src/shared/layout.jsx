@@ -1,7 +1,7 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom';
 import Sidebar from '../shared/sidebar';
-import Header from'../shared/header';
+import Header from'../shared/Header';
 import Dashboard from '../shared/dashboard'
 export const Layout = () => {
   return (

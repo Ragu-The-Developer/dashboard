@@ -5,7 +5,7 @@ import { Transition, Menu } from '@headlessui/react'
 import { Fragment } from 'react'
 import classNames from 'classnames'
 import { useNavigate } from 'react-router-dom'
-export default function header() {
+export default function Header() {
 
   const navigate = useNavigate();
   return (
@@ -39,7 +39,8 @@ export default function header() {
                 <div className='bg-white rounded-sm shadow-md ring-1 ring-black ring-opacity-5 px-2 py-2.5'>
                     <strong className='text-gray-700 font-medium'>Messages</strong>
 
-                    <div className="mt-2 py-1 text-gray-500">
+                    <div 
+                    className="mt-2 py-1 text-gray-500">
                         No New Messages
                     </div>
 
