@@ -1,7 +1,7 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom';
 import Sidebar from './sidebar';
-import Header from'./Header.jsx';
+import Header from'./header';
 import Dashboard from './dashboard'
 export const Layout = () => {
   return (
