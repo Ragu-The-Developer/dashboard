@@ -1,8 +1,8 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom';
-import Sidebar from '../shared/sidebar';
-import Header from'../shared/Header.jsx';
-import Dashboard from '../shared/dashboard'
+import Sidebar from './sidebar';
+import Header from'./Header.jsx';
+import Dashboard from './dashboard'
 export const Layout = () => {
   return (
     <div className="flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden">
